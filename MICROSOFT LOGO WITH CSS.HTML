@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Logo with CSS GRID</title>
+<style>
+    body{
+        margin:0;
+        padding:0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background: azure;
+    }
+    .Microsoft_logo{
+     display:grid;
+     grid-template-columns: 200px 200px;
+     grid-template-rows: auto auto;
+     grid-column-gap:20px;
+     grid-row-gap:20px;
+    }
+    .square {
+        width:200px;
+        height:200px;
+    }
+    .red{
+        background-color:#f35325;
+    }
+    .green{
+        background-color:#81bc06;
+    }
+    .blue{
+        background-color:#05a6f0;
+    }
+    .yellow{
+        background-color:#ffba08;
+    }
+</style>
+</head>
+<body>
+    <div class="Microsoft_logo">
+        <div class="square red"></div>
+        <div class="square green"></div>
+        <div class="square blue "></div>
+        <div class="square yellow"></div>
+    </div>
+</body>
+</html>
